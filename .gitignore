@@ -1,0 +1,17 @@
+# ignore virtual environment
+env/
+.venv/
+
+# ignore python cache
+__pycache__/
+*.pyc
+
+# ignore jupyter checkpoints
+.ipynb_checkpoints/
+
+# ignore OS junk
+.DS_Store
+Thumbs.db
+
+# ignore data (keep CSV local)
+data/
