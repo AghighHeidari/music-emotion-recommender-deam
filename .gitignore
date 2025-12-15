@@ -1,17 +1,16 @@
-# ignore virtual environment
+# Virtual environments
 env/
 .venv/
 
-# ignore python cache
+# Data files
+data/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
 __pycache__/
 *.pyc
 
-# ignore jupyter checkpoints
-.ipynb_checkpoints/
-
-# ignore OS junk
+# OS files
 .DS_Store
-Thumbs.db
-
-# ignore data (keep CSV local)
-data/
